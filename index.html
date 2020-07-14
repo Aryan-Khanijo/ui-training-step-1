@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="room-pic">
+            <span class="heart clicked" id="like" onclick=""><input type="checkbox" id="checkbox" /></span>
+            <div class="rooms-left">4 rooms left</div>
+            <p class="like">Most Liked</p>
+            <br><br><br><br><br><br>
+            <p class="open-link"><button style="background: transparent; border: 0px; font-size:24px"><i class="fa fa-external-link"></i></button></p>
+        </div>
+        <div class="room-info">
+            <p class="suite">
+                Lotus Suite
+            </p>
+            <p class="suite-info">
+                TV | Air Conditioning | Wifi | Electronic Safe | Tea/Coffee Ma... 
+            </p>
+            <p class="view-more">
+                <a class="view-more" href="#view">view more</a>
+            </p>
+            <p class="room-det">
+                <i class="fa ico fa-users" aria-hidden="true"></i> 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa ico fa-bed" aria-hidden="true"></i> King Size
+            </p>
+            <p class="offer">
+                <span class="discount fa-stack fa-lg">
+                    <i class="fa fa-certificate fa-stack-2x"></i>
+                    <i class="fa fa-percent fa-stack-1x fa-inverse"></i>
+                </span> SUMMER25, PROMO10
+            </p>        
+        </div>
+        <hr class="ruler">
+        <div class="types-rooms">
+            <div class="type">
+                <div class="room-name-container">
+                <p class="room-name">
+                    AC Room Only
+                </p>
+                <p class="details">
+                    <a href="#viewdet" class="view-more">view details</a>
+                </p>
+                </div>
+                <div class="room-count-container">
+                    <button class="counter" onclick="inc(acroomcount)"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    <p class="room-count" id="acroomcount">0</p>
+                    <button class="counter" onclick="dec(acroomcount)"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                    <p class="applied-offer">
+                        *Applied <span class="offer-code">SUMMER25</span>
+                    </p>    
+                </div>
+                <div class="price">
+                    <p class="extra-info">
+                        <strike>INR 14,000</strike><i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                    <p class="new-price">
+                        <i class="fa fa-rupee"></i>10,500 <span class="per">/night</span>
+                    </p>
+                    <p class="extra-info">
+                        Non-Refundable <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                </div>
+
+            </div>
+            <hr class="ruler">
+            <div class="type">
+                <div class="room-name-container">
+                <p class="room-name">
+                    Non AC Room Only With Breakfast
+                </p>
+                <p class="details">
+                    <a href="#viewdet" class="view-more">view details</a>
+                </p>
+                </div>
+                <div class="room-count-container">
+                    <button class="counter" onclick="inc(nonacroomcountwb)"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    <p class="room-count" id="nonacroomcountwb">0</p>
+                    <button class="counter" onclick="dec(nonacroomcountwb)"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                    <p class="applied-offer">
+                        *Applied <span class="offer-code">SUMMER25</span>
+                    </p>    
+                </div>
+                <div class="price">
+                    <p class="extra-info">
+                        <strike>INR 15,000</strike><i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                    <p class="new-price">
+                        <i class="fa fa-rupee"></i>11,250 <span class="per">/night</span>
+                    </p>
+                    <p class="extra-info">
+                        Non-Refundable <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+            <hr class="ruler">
+            <div class="type">
+                <div class="room-name-container">
+                <p class="room-name">
+                    AC Room Only With Breakfast and Dinner
+                </p>
+                <p class="details">
+                    <a href="#viewdet" class="view-more">view details</a>
+                </p>
+                </div>
+                <div class="room-count-container">
+                    <button class="counter" onclick="inc(acroomcountbd)"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    <p class="room-count" id="acroomcountbd">0</p>
+                    <button class="counter" onclick="dec(nonacroomcountbd)"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                    <p class="applied-offer">
+                        *Applied <span class="offer-code">SUMMER25</span>
+                    </p>    
+                </div>
+                <div class="price">
+                    <p class="extra-info">
+                        <strike>INR 17,000</strike><i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                    <p class="new-price">
+                        <i class="fa fa-rupee"></i>12,750 <span class="per">/night</span>
+                    </p>
+                    <p class="extra-info">
+                        Non-Refundable <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-container">
+            <p class="view-all view-more">View All</p>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
