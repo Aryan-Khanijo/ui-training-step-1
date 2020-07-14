@@ -5,6 +5,10 @@ html, body{
     background-color: rgb(220, 243, 243);
 }
 
+.per{
+    font-size: small;
+}
+
 .title
 {
     font-family: 'Oswald', sans-serif;
@@ -224,6 +228,7 @@ button:focus{
 .new-price
 {
     margin: 0;
+    font-size: large;
 }
 
 .extra-info
