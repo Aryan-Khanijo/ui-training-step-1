@@ -1,8 +1,3 @@
-function like() {
-    var element = document.getElementById("like");
-    element.classList.toggle("clicked");
-  } 
-
 function inc(id) {
   var qty = parseInt(document.getElementById(id).innerText);
   qty = qty + 1;
