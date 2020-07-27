@@ -262,6 +262,9 @@ button:focus{
     .new-price{
         font-size: small;
     }
+    .per{
+        font-size: x-small;
+    }
     .open-link{
         float: right;
         padding-right: 3%;
