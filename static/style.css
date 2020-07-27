@@ -214,3 +214,57 @@ button:focus{
     font-size: medium;
     padding: 1%;
 }
+
+@media only screen and (max-width: 770px){
+    body{
+        font-size: smaller;
+    }
+    .main{
+        width: 80%;
+    }
+    .room-pic{
+        width: 100%;
+    }
+    .room-info{
+        width: 100%;
+    }
+    .suite-info{
+        padding-left: 0%;
+        text-align: center;
+        display: block;
+    }
+    .view-more{
+        text-align: center;
+        display: block;
+    }
+    .room-name-container{
+        padding-left: 1%;
+        width: 40%;
+    }
+    .details{
+        text-align: left !important; 
+    }
+    .room-count-container{
+        width: 25%;
+    }
+    .group{
+        text-align: center;
+    }
+    .applied-offer{
+        text-align: center;
+    }
+    .price{
+        width: 30%;
+    }
+    .extra-info{
+        font-size: x-small;
+    }
+    .new-price{
+        font-size: small;
+    }
+    .open-link{
+        float: right;
+        padding-right: 3%;
+    }
+}
+
